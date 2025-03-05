@@ -1,0 +1,44 @@
+.refresh-button {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #EB0237;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.refresh-button:hover {
+  background-color: #a01130d3;
+}
+
+.refresh-button:focus {
+  background-color: #A01131;
+  outline: none;
+}
+
+.refresh-button:disabled {
+  background-color: #701328;
+  cursor: not-allowed;
+}
+
+.refresh-button__icon {
+  margin-left: 10px;
+}
+
+.refresh-button__text {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .refresh-button {
+    width: 100%;
+  }
+}

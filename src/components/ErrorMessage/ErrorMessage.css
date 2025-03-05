@@ -1,0 +1,26 @@
+.error-message {
+    height: 56px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #0F1318;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.error-message div {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.error-message img {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .error-message {
+        margin-bottom: 20px;
+    }
+}

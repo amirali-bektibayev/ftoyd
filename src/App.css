@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 83px auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #06080C;
+}
+
+.title {
+  font-family: 'Tactic Sans';
+  font-style: italic;
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+  #root {
+    padding: 0 16px;
+  }
+
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header .title {
+    margin-right: 0;
+    margin-bottom: 14px;
+  }
+
+}

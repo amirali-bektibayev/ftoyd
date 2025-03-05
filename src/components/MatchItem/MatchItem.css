@@ -1,0 +1,87 @@
+.match__item {
+    padding: 16px 36px;
+    margin-bottom: 12px;
+    background-color: #0B0E12;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.match__item-team {
+    display: flex;
+    align-items: center;
+}
+
+.match__item-team-name {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.match__item-team-home img {
+    margin-right: 14px;
+}
+
+.match__item-team-away img {
+    margin-left: 14px;
+}
+
+.match__item-score {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.match__item-status {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 92px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: blue;
+}
+
+.match__item-status_finished {
+    background-color: #EB0237;
+}
+
+.match__item-status_ongoing {
+    background-color: #43AD28;
+}
+
+.match__item-status_scheduled {
+    background-color: #EB6402;
+}
+
+@media (max-width: 768px) {
+    .match__item {
+        padding: 8px;
+    }
+
+    .match__item-team img {
+        width: 28px;
+    }
+
+    .match__item-team-home img {
+        margin-right: 6px;
+    }
+
+    .match__item-team-away img {
+        margin-left: 6px;
+    }
+
+    .match__item-team-name {
+        font-size: 14px;
+    }
+
+    .match__item-score {
+        font-size: 14px;
+    }
+
+    .match__item-status {
+        min-width: 70px;
+    }
+}
